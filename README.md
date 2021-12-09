@@ -6,7 +6,12 @@ https://www.udemy.com/course/advanced-scala/
 
 This is my work, following along with the class.
 
-# Certificates
+## Links to Daniel's Github Repos
+Beginners: https://github.com/rockthejvm/udemy-scala-beginners
+
+Advanced: https://github.com/rockthejvm/udemy-scala-advanced
+
+## Certificates
 Beginners:
 
 https://www.udemy.com/certificate/UC-b3c55c4a-c040-4a84-b4e4-70de4c1a45f8/
