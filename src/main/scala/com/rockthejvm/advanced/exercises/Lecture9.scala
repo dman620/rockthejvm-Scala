@@ -26,7 +26,7 @@ object Lecture9 extends App {
 
   //2
   print(">")
-  stdin.getLines.map{
+  stdin.getLines.map(_.toLowerCase).map{
       case "q" => System.exit(0); ""
       case "hello" => "Hello, yourself!"
       case "what's up" => "Nothing much, how about you?"
