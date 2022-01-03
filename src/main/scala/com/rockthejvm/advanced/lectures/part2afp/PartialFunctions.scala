@@ -35,6 +35,7 @@ object PartialFunctions extends App {
   } //partial function value
 
   //but this actually looks nicer IMO
+  //note: this is not a partial function type
   val bestIsPrime: Int => Boolean = {
     case 0 => false
     case i if i > 0 => isPrime(i)
@@ -53,6 +54,7 @@ object PartialFunctions extends App {
   //lift: function, returns a function.  This function is essentially a wrapper that has the same behavior
   //as the unlifted function but returns an option.
   val liftedIsPrime = aPartialIsPrime.lift
+
   println(liftedIsPrime(-213))//None
   println(liftedIsPrime(5))//Some(true)
 
