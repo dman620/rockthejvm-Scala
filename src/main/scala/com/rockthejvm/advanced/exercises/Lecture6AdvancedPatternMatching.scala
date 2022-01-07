@@ -3,7 +3,7 @@ package com.rockthejvm.advanced.exercises
 import scala.annotation.tailrec
 
 
-object Lecture6 extends App {
+object Lecture6AdvancedPatternMatching extends App {
   val MAX_NOTES = 400
   val n: Int = 56
   val mathProperty = n match{ //small brain

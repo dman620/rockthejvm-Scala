@@ -1,4 +1,4 @@
-package com.rockthejvm.advanced.exercises
+package com.rockthejvm.advanced.exercises.FSet
 
 import scala.annotation.tailrec
 

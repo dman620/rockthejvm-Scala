@@ -1,6 +1,6 @@
 package com.rockthejvm.advanced.exercises
 
-object Lecture14 extends App {
+object Lecture14CurryingAndPartiallyAppliedFunctions extends App {
   val simpleAddFunction = (x: Int, y: Int) => x + y
   def simpleAddMethod(x: Int, y: Int) = x + y
   def curriedAddMethod(x: Int)(y: Int) = x + y

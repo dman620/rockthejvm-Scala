@@ -2,7 +2,7 @@ package com.rockthejvm.advanced.exercises
 
 import scala.io.Source.stdin
 
-object Lecture9 extends App {
+object Lecture9PartialFunctions extends App {
   /*
   * 1. construct a PF instance yourself (anonymous class)
   * 2. dumb chatbot as a PF
