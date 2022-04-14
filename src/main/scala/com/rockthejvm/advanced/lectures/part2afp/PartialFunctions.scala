@@ -1,4 +1,4 @@
-package com.rockthejvm.advanced.lectures.part1.part2afp
+package com.rockthejvm.advanced.lectures.part2afp
 
 import scala.annotation.tailrec
 
